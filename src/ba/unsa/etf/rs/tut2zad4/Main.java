@@ -13,6 +13,8 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/sample.fxml"));
         primaryStage.setTitle("Ispit test");
         primaryStage.setScene(new Scene(root, 400, 350));
+        primaryStage.setMaxHeight(350);
+        primaryStage.setMaxWidth(400);
         primaryStage.show();
     }
 
